@@ -2,7 +2,7 @@ import experienceData from "../../../services/experienceData"
 
 const Experience: React.FC = () => {
     return (
-        <section id="experience" className="md-0 md:mb-12 w-full px-3 py-8 lg:px-6 lg:py-16">
+        <section id="experience" className="mb-0 md:mb-12 w-full px-3 py-8 lg:px-6 lg:py-16">
             <div className="mb-3">
                 <div className="mb-3 lg:mb-6 flex items-center justify-center gap-4 text-center font-apple-color-emoji text-4xl lg:text-5xl">
                     <p>👨🏻‍💻</p>
