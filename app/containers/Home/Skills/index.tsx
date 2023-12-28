@@ -6,13 +6,13 @@ import skillsData from "../../../services/skillsData"
 
 const Skills: React.FC = () => {
     return (
-        <section id="skills" className="mb-0 md:mb-12 w-full px-3 py-8 lg:px-6 lg:py-16">
+        <section id="skills" className="mb-0 w-full px-3 py-8 md:mb-12 lg:px-6 lg:py-16">
             <div className="mb-3">
-                <div className="mb-3 lg:mb-6 flex items-center justify-center gap-4 text-center font-apple-color-emoji text-4xl lg:text-5xl">
+                <div className="mb-3 flex items-center justify-center gap-4 text-center font-apple-color-emoji text-4xl lg:mb-6 lg:text-5xl">
                     <p>🤓</p>
                     <p>💬</p>
                 </div>
-                <h2 className="mb-8 text-center text-3xl lg:text-4xl text-stone-700">Yeteneklerim</h2>
+                <h2 className="mb-8 text-center text-3xl text-stone-700 lg:text-4xl">Yeteneklerim</h2>
             </div>
             <Tabs className="w-full rounded-xl bg-skills-pattern bg-cover bg-center">
                 <TabList className="flex flex-wrap justify-center gap-1.5 bg-gradient-to-b from-white via-white to-transparent pb-12">
@@ -25,7 +25,7 @@ const Skills: React.FC = () => {
                     ))}
                 </TabList>
                 {skillsData.tabs.map((tab, index) => (
-                    <TabPanel key={index} className="grid grid-cols-1 md:grid-cols-[repeat(auto-fit,minmax(18rem,0fr))] justify-center gap-12 min-w-full">
+                    <TabPanel key={index} className="grid min-w-full grid-cols-1 justify-center gap-12 md:grid-cols-[repeat(auto-fit,minmax(18rem,0fr))]">
                         {tab.skills.map((skill, skillIndex) => (
                             <div key={skillIndex} className="relative flex w-full gap-3 pb-6 md:w-72">
                                 <div className="relative flex w-full gap-3 pb-6">

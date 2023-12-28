@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint --fix **/*.{tsx,ts}"
+    "lint": "eslint --fix app/**/*.{tsx,ts}"
   },
   "dependencies": {
     "@lottiefiles/react-lottie-player": "^3.5.3",

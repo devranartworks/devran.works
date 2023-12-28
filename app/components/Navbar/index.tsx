@@ -4,8 +4,8 @@ import Avatar from "../../assets/images/blank-avatar.jpg"
 
 const Navbar: React.FC = () => {
     return (
-        <nav className="flex justify-center z-50 w-full border-b border-stone-100 bg-white">
-            <div className="max-w-[1120px] px-5 py-6 w-full">
+        <nav className="z-50 flex w-full justify-center border-b border-stone-100 bg-white">
+            <div className="w-full max-w-[1120px] px-5 py-6">
                 <div className="flex justify-between">
                     <div className="flex items-center gap-3">
                         <div className="overflow-hidden rounded-full">
