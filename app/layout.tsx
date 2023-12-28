@@ -1,3 +1,4 @@
+import { Metadata } from "next"
 import localFont from "next/font/local"
 import "./styles/globals.css"
 
@@ -19,8 +20,7 @@ const appleColorEmoji = localFont({
             style: "normal",
         }
     ],
-    variable: "--font-apple-color-emoji",
-    display: "swap"
+    variable: "--font-apple-color-emoji"
 })
 
 const sfPro = localFont({
@@ -69,6 +69,11 @@ const sfPro = localFont({
     variable: "--font-sf-pro",
     display: "swap"
 })
+
+export const metadata: Metadata = {
+    title: "Yılmaz Ev | Frontend Developer",
+    description: "Ben Yılmaz Ev, güzel kullanıcı arayüzleri ve etkileyici deneyimler yaratmaya tutkulu bir front-end geliştiriciyim.",
+}
 
 export default function RootLayout({
     children,
