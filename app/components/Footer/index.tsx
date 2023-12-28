@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
                                     <div className="flex justify-center items-center md:hidden w-9 h-9 hover:bg-stone-200 rounded-full">
                                         {social.icon && React.createElement(social.icon, {
                                             ...social.IconProps,
-                                            className: `fill-stone-600`
+                                            className: "fill-stone-600"
                                         })}
                                     </div>
                                 </Link>
