@@ -3,6 +3,7 @@
 import { useState } from "react"
 import { useRouter } from "next/navigation"
 import Link from "next/link"
+import { Player } from "@lottiefiles/react-lottie-player"
 import { IconFile, IconGithub } from "../../../components/Icons"
 import LottieConfetti from "../../../assets/lottie/confetti.json"
 
