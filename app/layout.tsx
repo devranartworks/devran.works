@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react"
 import { Metadata } from "next"
 import localFont from "next/font/local"
 import "./styles/globals.css"
@@ -82,7 +83,10 @@ export default function RootLayout({
 }) {
     return (
         <html lang="tr">
-            <body className={`${sfPro.className} ${appleColorEmoji.variable}`}>{children}</body>
+            <body className={`${sfPro.className} ${appleColorEmoji.variable}`}>
+                {children}
+                <Analytics />
+            </body>
         </html>
     )
 }

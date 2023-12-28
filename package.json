@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@lottiefiles/react-lottie-player": "^3.5.3",
+    "@vercel/analytics": "^1.1.1",
     "cssnano": "^6.0.2",
     "next": "14.0.4",
     "react": "^18",
