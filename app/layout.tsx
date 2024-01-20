@@ -3,27 +3,6 @@ import { Metadata } from "next"
 import localFont from "next/font/local"
 import "./styles/globals.css"
 
-const appleColorEmoji = localFont({
-    src: [
-        {
-            path: "./assets/fonts/apple-color-emoji/5ab304ade0d4f62d027d12464ca69443.ttf",
-            weight: "normal",
-            style: "normal",
-        },
-        {
-            path: "./assets/fonts/apple-color-emoji/5ab304ade0d4f62d027d12464ca69443.woff",
-            weight: "normal",
-            style: "normal",
-        },
-        {
-            path: "./assets/fonts/apple-color-emoji/5ab304ade0d4f62d027d12464ca69443.woff2",
-            weight: "normal",
-            style: "normal",
-        }
-    ],
-    variable: "--font-apple-color-emoji"
-})
-
 const sfPro = localFont({
     src: [
         {
@@ -83,7 +62,7 @@ export default function RootLayout({
 }) {
     return (
         <html lang="tr">
-            <body className={`${sfPro.className} ${appleColorEmoji.variable}`}>
+            <body className={sfPro.className}>
                 {children}
                 <Analytics />
             </body>

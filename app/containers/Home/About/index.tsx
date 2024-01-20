@@ -16,14 +16,14 @@ const About: React.FC = () => {
         <section id="about" className="mb-3 flex w-full justify-center px-3 py-8 md:mb-12 lg:px-6 lg:py-16">
             <div className="flex max-w-3xl flex-col sm:items-center">
                 <div className="mb-3 sm:mb-6">
-                    <h1 className="text-center text-2xl font-light text-stone-700 md:text-3xl lg:text-4xl">Merhaba <span className="ml-2.5 font-apple-color-emoji text-[1.6rem] sm:text-[2rem] md:text-[2.5rem]">👋🏻</span></h1>
+                    <h1 className="text-center text-2xl font-light text-stone-700 md:text-3xl lg:text-4xl">Merhaba <span className="ml-2.5 text-[1.6rem] sm:text-[2rem] md:text-[2.5rem]">👋🏻</span></h1>
                 </div>
                 <p className="text-center text-2xl font-light leading-[2.3rem] text-stone-700 sm:leading-[2.6rem] md:text-3xl md:leading-[3rem] lg:text-4xl lg:leading-[3.5rem]">Ben <b className="font-semibold">Yılmaz Ev</b>, güzel kullanıcı arayüzleri ve etkileyici deneyimler yaratmaya tutkulu bir front-end geliştiriciyim.</p>
                 <div className="mb-4 mt-8 flex flex-col items-center sm:flex-row md:mt-12">
                     <div className="flex flex-col items-center font-normal text-stone-700 sm:flex-row">
                         <p className="text-center text-xl md:text-2xl lg:text-3xl">İletişime geç</p>
-                        <span className="ml-2 mr-3 hidden font-apple-color-emoji text-[2rem] sm:block">👉🏻</span>
-                        <span className="my-3 ml-2 mr-3 block font-apple-color-emoji text-[2rem] sm:hidden">👇🏻</span>
+                        <span className="ml-2 mr-3 hidden text-[2rem] sm:block">👉🏻</span>
+                        <span className="my-3 ml-2 mr-3 block text-[2rem] sm:hidden">👇🏻</span>
                     </div>
                     <Link href="mailto:yilmaz.ev@outlook.com" className="w-fit text-xl font-normal text-stone-700 shadow-[0_2px_0_#292524] md:text-2xl md:shadow-[0_3px_0_#292524] lg:text-3xl" aria-label="yilmaz.ev@outlook.com ile iletişime geç">yilmaz.ev@outlook.com</Link>
                 </div>

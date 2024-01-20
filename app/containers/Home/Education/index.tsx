@@ -4,7 +4,7 @@ const Education: React.FC = () => {
     return (
         <section id="education" className="mb-0 w-full px-3 py-8 md:mb-12 lg:px-6 lg:py-16">
             <div className="mb-3">
-                <div className="mb-3 flex items-center justify-center gap-4 text-center font-apple-color-emoji text-4xl lg:mb-6 lg:text-5xl">
+                <div className="mb-3 flex items-center justify-center gap-4 text-center text-4xl lg:mb-6 lg:text-5xl">
                     <p>🧑🏻‍🏫</p>
                 </div>
                 <h2 className="mb-8 text-center text-3xl text-stone-700 lg:text-4xl">Eğitimim</h2>
