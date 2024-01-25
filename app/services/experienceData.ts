@@ -6,7 +6,7 @@ const experienceData: { experience: ExperienceProps[] } = {
             title: "Frontend Developer",
             company: "Psikologofisi.com",
             description: "Psikologofisi projesi için yaklaşık bir yıldır yüksek kaliteli bir ekip ile iş birliği içinde çalışmaya devam ediyorum. Bu projede, pixel-perfect tasarım, API entegrasyonu, ödeme işlemleri gibi konularda önemli deneyimler edindim. Bu alanlarda geniş bilgi birikimine sahip oldum. Bu deneyimler, profesyonel beceri setimi önemli ölçüde geliştirdi ve web geliştirme alanındaki uzmanlığımı pekiştirdi.",
-            workingDate: "2023 - Hâlen",
+            workingDate: "2023 - 2024",
             skills: [
                 {
                     name: "Git",
