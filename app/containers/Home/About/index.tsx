@@ -39,9 +39,9 @@ const About: React.FC = () => {
                         </div>
                         {isExploding &&
                             <Player
-                                onEvent={event => {
-                                    if (event === "complete") {
-                                        router.push("/resume.pdf")
+                                onEvent={e => {
+                                    if (e === "complete") {
+                                        router.push("/resume-en.pdf")
                                         setIsExploding(false)
                                     };
                                 }}
