@@ -1,4 +1,4 @@
-import { ProjectsProps } from "../types/projectTypes";
+import { ProjectsProps } from "../types/projectTypes"
 
 const projectsData: { projects: ProjectsProps[] } = {
     projects: [
@@ -131,6 +131,6 @@ const projectsData: { projects: ProjectsProps[] } = {
             ],
         },
     ],
-};
+}
 
-export default projectsData;
+export default projectsData
