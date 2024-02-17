@@ -12,7 +12,7 @@ const Skills: React.FC = () => {
                     <p>🤓</p>
                     <p>💬</p>
                 </div>
-                <h2 className="mb-8 text-center text-3xl text-stone-700 lg:text-4xl">Yeteneklerim</h2>
+                <h2 className="mb-8 text-center text-3xl text-stone-700 lg:text-4xl">Skills</h2>
             </div>
             <Tabs className="w-full rounded-xl bg-skills-pattern bg-cover bg-center">
                 <TabList className="flex flex-wrap justify-center gap-1.5 bg-gradient-to-b from-white via-white to-transparent pb-12">

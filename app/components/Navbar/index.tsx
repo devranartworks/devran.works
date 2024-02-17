@@ -19,16 +19,16 @@ const Navbar: React.FC = () => {
                     </div>
                     <ul className="flex items-center gap-1.5">
                         <li className="rounded-xl bg-stone-800">
-                            <Link href="#about" scroll={true} className="block h-full w-full px-6 py-2.5 font-normal text-gray-50" aria-label="Ben">Ben</Link>
+                            <Link href="#about" scroll={true} className="block h-full w-full px-6 py-2.5 font-normal text-gray-50" aria-label="Me">Me</Link>
                         </li>
                         <li className="rounded-xl border border-gray-100 transition duration-200 hover:bg-gray-100">
-                            <Link href="#skills" scroll={true} className="block h-full w-full cursor-pointer px-6 py-2.5 font-normal text-stone-700" aria-label="Yetenekler">Yetenekler</Link>
+                            <Link href="#skills" scroll={true} className="block h-full w-full cursor-pointer px-6 py-2.5 font-normal text-stone-700" aria-label="Skills">Skills</Link>
                         </li>
                         <li className="rounded-xl border border-gray-100 transition duration-200 hover:bg-gray-100">
-                            <Link href="#experience" scroll={true} className="block h-full w-full cursor-pointer px-6 py-2.5 font-normal text-stone-700" aria-label="Deneyimler">Deneyimler</Link>
+                            <Link href="#experience" scroll={true} className="block h-full w-full cursor-pointer px-6 py-2.5 font-normal text-stone-700" aria-label="Experience">Experience</Link>
                         </li>
                         <li className="rounded-xl border border-gray-100 transition duration-200 hover:bg-gray-100">
-                            <Link href="#projects" scroll={true} className="block h-full w-full cursor-pointer px-6 py-2.5 font-normal text-stone-700" aria-label="Projeler">Projeler</Link>
+                            <Link href="#projects" scroll={true} className="block h-full w-full cursor-pointer px-6 py-2.5 font-normal text-stone-700" aria-label="Projects">Projects</Link>
                         </li>
                     </ul>
                 </div>

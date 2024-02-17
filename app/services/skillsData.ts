@@ -16,7 +16,7 @@ import ImageJira from "../assets/images/skills/jira.svg"
 const skillsData: { tabs: TabProps[] } = {
     tabs: [
         {
-            label: "Dil",
+            label: "Language",
             skills: [
                 {
                     name: "HTML5",
@@ -62,7 +62,7 @@ const skillsData: { tabs: TabProps[] } = {
             ],
         },
         {
-            label: "Stil",
+            label: "Style",
             skills: [
                 {
                     name: "Sass",
@@ -91,7 +91,7 @@ const skillsData: { tabs: TabProps[] } = {
             ],
         },
         {
-            label: "Versiyon Kontrol",
+            label: "Version Control",
             skills: [
                 {
                     name: "Git",
@@ -102,7 +102,7 @@ const skillsData: { tabs: TabProps[] } = {
             ],
         },
         {
-            label: "Program",
+            label: "Tools",
             skills: [
                 {
                     name: "Figma",

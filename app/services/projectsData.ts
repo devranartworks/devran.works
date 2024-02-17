@@ -1,11 +1,11 @@
-import { ProjectsProps } from "../types/projectTypes"
+import { ProjectsProps } from "../types/projectTypes";
 
 const projectsData: { projects: ProjectsProps[] } = {
     projects: [
         {
             link: "https://www.yilmazev.dev/",
-            title: "Kişisel Websitem V3",
-            description: "Merhaba Typescript. Typescript dünyasına entegre olmak için ilk Typescript projemi oluşturdum. Kişisel webitemde benimle alakalı birçok bilgiyi erişilebilir kıldım. Ayrıca topluluğunda erişebilmesi için açık kaynak şeklinde paylaştım.",
+            title: "Personal Website V3",
+            description: "Hello Typescript. I created my first Typescript project to integrate into the Typescript world. I made a lot of information about me accessible on my personal website. Additionally, I shared it as open source for the community to access.",
             used: [
                 {
                     name: "Next.js",
@@ -16,12 +16,12 @@ const projectsData: { projects: ProjectsProps[] } = {
                 {
                     name: "Typescript",
                 },
-            ]
+            ],
         },
         {
             link: "https://www.sendyourdream.com/",
             title: "SendYourDream",
-            description: "Dünya genelinde, bütün rüya yorumcularını bir araya getiren bir pazaryeri. v0.dev ile üretilmiş tasarımları Tailwind ile tekrardan kodlayıp ve RestAPI bağlantılarını yaptım. Çoklu dil gibi özellikleri de dahil ettim.",
+            description: "A marketplace bringing together dream interpreters worldwide. I re-coded designs created with v0.dev using Tailwind and implemented RestAPI connections. I also included features like multilingual support.",
             used: [
                 {
                     name: "Next.js",
@@ -35,12 +35,12 @@ const projectsData: { projects: ProjectsProps[] } = {
                 {
                     name: "RestAPI",
                 },
-            ]
+            ],
         },
         {
             link: "https://www.montenegrowise.com/",
             title: "Montenegrowise",
-            description: "Karadağ için danışmanlık projesi için mevcut tasarımları pixel-perfect kodladım. Çoklu dil gibi özellikleri de dahil ettim.",
+            description: "I pixel-perfectly coded existing designs for a consultancy project in Montenegro. I also included features like multilingual support.",
             used: [
                 {
                     name: "Next.js",
@@ -51,12 +51,12 @@ const projectsData: { projects: ProjectsProps[] } = {
                 {
                     name: "Internationalization (i18n)",
                 },
-            ]
+            ],
         },
         {
             link: "https://psikologofisi.com",
             title: "Psikologofisi",
-            description: "Psikolog pazaryeri projesi için mevcut tasarımları pixel-perfect kodlamak ve RestAPI bağlantılarını yapmak gibi görevleri üstlendim. Bu projede kullanıcı deneyimini ön planda tuttum ve detaylara özen gösterdim.",
+            description: "I took on tasks such as pixel-perfect coding of existing designs and making RestAPI connections for the psychologist marketplace project. I prioritized user experience and paid attention to details in this project.",
             used: [
                 {
                     name: "Next.js",
@@ -67,12 +67,12 @@ const projectsData: { projects: ProjectsProps[] } = {
                 {
                     name: "RestAPI",
                 },
-            ]
+            ],
         },
         {
             link: "https://v2.yilmazev.dev",
-            title: "Kişisel Websitem V2",
-            description: "Merhaba React. Artık kendimi React dünyasına ait hissediyorum. Geliştirdiğim ilk React projesinden öğrendiğim bilgileri, portfolyomu yaparken kullandım.",
+            title: "Personal Website V2",
+            description: "Hello React. I now feel part of the React world. I used the knowledge gained from my first React project while building my portfolio.",
             used: [
                 {
                     name: "Next.js",
@@ -80,12 +80,12 @@ const projectsData: { projects: ProjectsProps[] } = {
                 {
                     name: "Sass",
                 },
-            ]
+            ],
         },
         {
             link: "https://monster-redesign.vercel.app/",
             title: "Monster Ape Club Redesign",
-            description: "Monster Ape Club web sayfasını React üzerinde kendimi geliştirmek için yeniden tasarlayıp / kodladığım proje. Açık kaynaktır.",
+            description: "A project where I redesigned and coded the Monster Ape Club web page on React to improve my skills. It is open source.",
             used: [
                 {
                     name: "React",
@@ -93,12 +93,12 @@ const projectsData: { projects: ProjectsProps[] } = {
                 {
                     name: "Sass",
                 },
-            ]
+            ],
         },
         {
             link: "https://web.archive.org/web/20220203082058/https://habbopie.com/",
             title: "Habbopie",
-            description: "Habbo için oluşturulmuş bir hayran sitesi. Frontend ve backend mimarisini oluştumuş olduğum, oyuncuların Habbo ile alakalı güncel yazıları, etkinlikler gibi vb. olayları görebildiği bir platform.",
+            description: "A fan site created for Habbo. A platform where players can see current articles, events, etc., related to Habbo, with the frontend and backend architecture developed by me.",
             used: [
                 {
                     name: "HTML5",
@@ -115,12 +115,12 @@ const projectsData: { projects: ProjectsProps[] } = {
                 {
                     name: "MySQL",
                 },
-            ]
+            ],
         },
         {
             link: "https://web.archive.org/web/20220626224208/https://yilmazev.github.io/",
-            title: "Kişisel Websitesi V1",
-            description: "İlk kişisel websitemi 2021 yılında tasarlayıp oluşturdum. HTML, CSS3 hakkında epeyce şey öğrendim. Açıkcası o zamandan itibaren web geliştirme ve tasarım becerilerimin büyük ölçüde geliştiğini düşünüyorum.",
+            title: "Personal Website V1",
+            description: "I designed and created my first personal website in 2021. I learned a lot about HTML, CSS3. Frankly, I think my web development and design skills have greatly improved since then.",
             used: [
                 {
                     name: "HTML5",
@@ -128,9 +128,9 @@ const projectsData: { projects: ProjectsProps[] } = {
                 {
                     name: "Sass",
                 },
-            ]
+            ],
         },
     ],
-}
+};
 
-export default projectsData
+export default projectsData;

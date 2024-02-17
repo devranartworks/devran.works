@@ -16,12 +16,12 @@ const About: React.FC = () => {
         <section id="about" className="mb-3 flex w-full justify-center px-3 py-8 md:mb-12 lg:px-6 lg:py-16">
             <div className="flex max-w-3xl flex-col sm:items-center">
                 <div className="mb-3 sm:mb-6">
-                    <h1 className="text-center text-2xl font-light text-stone-700 md:text-3xl lg:text-4xl">Merhaba <span className="ml-2.5 text-[1.6rem] sm:text-[2rem] md:text-[2.5rem]">👋🏻</span></h1>
+                    <h1 className="text-center text-2xl font-light text-stone-700 md:text-3xl lg:text-4xl">Hello <span className="ml-2.5 text-[1.6rem] sm:text-[2rem] md:text-[2.5rem]">👋🏻</span></h1>
                 </div>
-                <p className="text-center text-2xl font-light leading-[2.3rem] text-stone-700 sm:leading-[2.6rem] md:text-3xl md:leading-[3rem] lg:text-4xl lg:leading-[3.5rem]">Ben <b className="font-semibold">Yılmaz Ev</b>, güzel kullanıcı arayüzleri ve etkileyici deneyimler yaratmaya tutkulu bir front-end geliştiriciyim.</p>
+                <p className="text-center text-2xl font-light leading-[2.3rem] text-stone-700 sm:leading-[2.6rem] md:text-3xl md:leading-[3rem] lg:text-4xl lg:leading-[3.5rem]">I'm <b className="font-semibold">Yılmaz Ev</b>, a front-end developer passionate about creating beautiful user interfaces and impressive experiences.</p>
                 <div className="mb-4 mt-8 flex flex-col items-center sm:flex-row md:mt-12">
                     <div className="flex flex-col items-center font-normal text-stone-700 sm:flex-row">
-                        <p className="text-center text-xl md:text-2xl lg:text-3xl">İletişime geç</p>
+                        <p className="text-center text-xl md:text-2xl lg:text-3xl">Get in touch</p>
                         <span className="ml-2 mr-3 hidden text-[2rem] sm:block">👉🏻</span>
                         <span className="my-3 ml-2 mr-3 block text-[2rem] sm:hidden">👇🏻</span>
                     </div>
@@ -35,7 +35,7 @@ const About: React.FC = () => {
                     <div className="relative">
                         <div onClick={() => setIsExploding(true)} className="mt-5 flex cursor-pointer items-center gap-1.5 rounded-full border border-gray-100 bg-white px-5 py-3.5 transition duration-200 hover:bg-gray-100">
                             <IconFile width="22px" height="22px" className="fill-none stroke-zinc-900 stroke-[1.5px]" />
-                            <p className="text-stone-700">Özgeçmiş</p>
+                            <p className="text-stone-700">CV</p>
                         </div>
                         {isExploding &&
                             <Player

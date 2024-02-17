@@ -3,11 +3,11 @@ import { EducationProps } from "../types/educationTypes"
 const educationData: { education: EducationProps[] } = {
     education: [
         {
-            school: "Atatürk Üniversitesi",
-            faculty: "Açıköğretim Fakültesi",
-            degree: "Önlisans",
-            fieldOfStudy: "Web tasarım ve kodlama",
-            startDate: "2023 -  Hâlen"
+            school: "Ataturk University",
+            faculty: "Faculty of Open Education",
+            degree: "Associate Degree",
+            fieldOfStudy: "Web design and coding",
+            startDate: "2023 -  Currently"
         },
     ],
 }

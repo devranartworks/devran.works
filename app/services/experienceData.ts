@@ -5,7 +5,7 @@ const experienceData: { experience: ExperienceProps[] } = {
         {
             title: "Frontend Developer",
             company: "Psikologofisi.com",
-            description: "Psikologofisi projesi için yaklaşık bir yıldır yüksek kaliteli bir ekip ile iş birliği içinde çalışmaya devam ediyorum. Bu projede, pixel-perfect tasarım, API entegrasyonu, ödeme işlemleri gibi konularda önemli deneyimler edindim. Bu alanlarda geniş bilgi birikimine sahip oldum. Bu deneyimler, profesyonel beceri setimi önemli ölçüde geliştirdi ve web geliştirme alanındaki uzmanlığımı pekiştirdi.",
+            description: "I worked on the Psychologofisi project for about a year in collaboration with a high quality team. In this project, I gained significant experience in pixel-perfect design, API integration, payment processing, etc. I gained extensive knowledge in these areas. These experiences significantly improved my professional skill set and reinforced my expertise in web development.",
             workingDate: "2023 - 2024",
             skills: [
                 {
@@ -52,7 +52,7 @@ const experienceData: { experience: ExperienceProps[] } = {
         {
             title: "Fullstack Developer",
             company: "Freelancer",
-            description: "Web sektöründeki projelerimde, özellikle Avrupa'da olmak üzere, global düzeyde satış ve proje bazlı destek hizmetleri sunduğum bir çalışma dönemine sahibim. Bu süreçte, uluslararası müşterilere yönelik çeşitli web projeleri geliştirerek, bu projelerin satış ve destek aşamalarında etkin roller üstlendim.",
+            description: "In my projects in the web sector, I have a working period in which I provided sales and project-based support services on a global level, especially in Europe. In this process, I developed various web projects for international customers and took active roles in the sales and support stages of these projects.",
             workingDate: "2020 - 2023",
             skills: [
                 {

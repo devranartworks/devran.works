@@ -9,7 +9,7 @@ const Projects: React.FC = () => {
                     <p>🌐</p>
                     <p>📂</p>
                 </div>
-                <h2 className="mb-8 text-center text-3xl text-stone-700 lg:text-4xl">Projelerim</h2>
+                <h2 className="mb-8 text-center text-3xl text-stone-700 lg:text-4xl">Projects</h2>
             </div>
             <div>
                 <div className="flex justify-center">

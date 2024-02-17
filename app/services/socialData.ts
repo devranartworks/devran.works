@@ -5,21 +5,21 @@ const socialData: { socialLink: SocialProps[] } = {
     socialLink: [
         {
             platform: "E-POSTA",
-            label: "yilmaz.ev@outlook.com ile iletişime geç",
+            label: "Contact yilmaz.ev@outlook.com",
             icon: IconMail,
             IconProps: { width: "22px", height: "22px" },
             link: "mailto:yilmaz.ev@outlook.com",
         },
         {
             platform: "LINKEDIN",
-            label: "@yilmazev LinkedIn'da iletişime geç",
+            label: "@yilmazev connect on LinkedIn",
             icon: IconLinkedIn,
             IconProps: { width: "22px", height: "22px" },
             link: "https://www.linkedin.com/in/yilmazev/",
         },
         {
             platform: "GITHUB",
-            label: "@yilmazev Github'da görüntüle",
+            label: "@yilmazev view on Github",
             icon: IconGithub,
             IconProps: { width: "22px", height: "22px" },
             link: "https://github.com/yilmazev",

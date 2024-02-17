@@ -7,7 +7,7 @@ const Experience: React.FC = () => {
                 <div className="mb-3 flex items-center justify-center gap-4 text-center text-4xl lg:mb-6 lg:text-5xl">
                     <p>👨🏻‍💻</p>
                 </div>
-                <h2 className="mb-8 text-center text-3xl text-stone-700 lg:text-4xl">Deneyimlerim</h2>
+                <h2 className="mb-8 text-center text-3xl text-stone-700 lg:text-4xl">My Experience</h2>
             </div>
             <div className="flex justify-center">
                 <div className="flex w-full max-w-[450px] flex-col items-center gap-6">
