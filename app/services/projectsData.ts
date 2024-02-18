@@ -3,6 +3,22 @@ import { ProjectsProps } from "../types/projectTypes"
 const projectsData: { projects: ProjectsProps[] } = {
     projects: [
         {
+            link: "https://markview.yilmazev.dev/",
+            title: "Markview",
+            description: "Markview is a tool that enables users to quickly and easily create Markdown files and instantly preview their content in a stylish format. It is ideal for enhancing your project's documentation or creating README files with ease.",
+            used: [
+                {
+                    name: "Next.js",
+                },
+                {
+                    name: "Tailwind",
+                },
+                {
+                    name: "Typescript",
+                },
+            ],
+        },
+        {
             link: "https://www.yilmazev.dev/",
             title: "Personal Website V3",
             description: "Hello Typescript. I created my first Typescript project to integrate into the Typescript world. I made a lot of information about me accessible on my personal website. Additionally, I shared it as open source for the community to access.",
@@ -75,7 +91,7 @@ const projectsData: { projects: ProjectsProps[] } = {
             description: "Hello React. I now feel part of the React world. I used the knowledge gained from my first React project while building my portfolio.",
             used: [
                 {
-                    name: "Next.js",
+                    name: "React",
                 },
                 {
                     name: "Sass",
