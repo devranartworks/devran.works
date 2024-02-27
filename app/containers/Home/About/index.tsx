@@ -41,7 +41,7 @@ const About: React.FC = () => {
                             <Player
                                 onEvent={e => {
                                     if (e === "complete") {
-                                        router.push("/resume-en.pdf")
+                                        router.push("/yilmaz.ev.resume.pdf")
                                         setIsExploding(false)
                                     };
                                 }}
