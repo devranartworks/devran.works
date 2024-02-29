@@ -3,6 +3,13 @@ import { ExperienceProps } from "../types/experienceTypes"
 const experienceData: { experience: ExperienceProps[] } = {
     experience: [
         {
+            title: "Jr. Web Developer",
+            company: "makromusic",
+            description: "I took my first steps to my dream company!",
+            workingDate: "2024 - Currently",
+            skills: []
+        },
+        {
             title: "Frontend Developer",
             company: "Psikologofisi.com",
             description: "I worked on the Psychologofisi project for about a year in collaboration with a high quality team. In this project, I gained significant experience in pixel-perfect design, API integration, payment processing, etc. I gained extensive knowledge in these areas. These experiences significantly improved my professional skill set and reinforced my expertise in web development.",
