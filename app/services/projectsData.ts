@@ -35,7 +35,7 @@ const projectsData: { projects: ProjectsProps[] } = {
             ],
         },
         {
-            link: "https://www.sendyourdream.com/",
+            link: "https://web.archive.org/web/20240308084650/https://www.sendyourdream.com/",
             title: "SendYourDream",
             description: "A marketplace bringing together dream interpreters worldwide. I re-coded designs created with v0.dev using Tailwind and implemented RestAPI connections. I also included features like multilingual support.",
             used: [
@@ -72,7 +72,7 @@ const projectsData: { projects: ProjectsProps[] } = {
         {
             link: "https://psikologofisi.com",
             title: "Psikologofisi",
-            description: "I took on tasks such as pixel-perfect coding of existing designs and making RestAPI connections for the psychologist marketplace project. I prioritized user experience and paid attention to details in this project.",
+            description: "I built the Psikologofisi project completely from scratch. I took on tasks such as pixel-perfect coding of existing designs and making RestAPI connections. In this project, I prioritized user experience and paid attention to details.",
             used: [
                 {
                     name: "Next.js",

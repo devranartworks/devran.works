@@ -12,7 +12,7 @@ const experienceData: { experience: ExperienceProps[] } = {
         {
             title: "Frontend Developer",
             company: "Psikologofisi.com",
-            description: "I worked on the Psychologofisi project for about a year in collaboration with a high quality team. In this project, I gained significant experience in pixel-perfect design, API integration, payment processing, etc. I gained extensive knowledge in these areas. These experiences significantly improved my professional skill set and reinforced my expertise in web development.",
+            description: "I rebuilt the Psikologofisi project from scratch with a new design. In this project, I gained significant experience in pixel-perfect design, API integration, payment processing, etc. I gained extensive knowledge in these areas. These experiences significantly improved my professional skill set and reinforced my expertise in web development.",
             workingDate: "2023 - 2024",
             skills: [
                 {
