@@ -1,55 +1,44 @@
 "use client"
 
-import { useState } from "react"
 import { useRouter } from "next/navigation"
 import Link from "next/link"
-import { Player } from "@lottiefiles/react-lottie-player"
-import { IconFile, IconGithub } from "../../../components/Icons"
-import LottieConfetti from "../../../assets/lottie/confetti.json"
+import { IconBehance, IconDribbble, IconInstagram, IconTwitter } from "../../../components/Icons"
 
 const About: React.FC = () => {
-    const [ isExploding, setIsExploding ] = useState<boolean>(false)
-
     const router = useRouter()
 
     return (
-        <section id="about" className="mb-3 flex w-full justify-center px-3 py-8 md:mb-12 lg:px-6 lg:py-16">
-            <div className="flex max-w-3xl flex-col sm:items-center">
-                <div className="mb-3 sm:mb-6">
-                    <h1 className="text-center text-2xl font-light text-stone-700 md:text-3xl lg:text-4xl">Hello <span className="ml-2.5 text-[1.6rem] sm:text-[2rem] md:text-[2.5rem]">👋🏻</span></h1>
-                </div>
-                <p className="text-center text-2xl font-light leading-[2.3rem] text-stone-700 sm:leading-[2.6rem] md:text-3xl md:leading-[3rem] lg:text-4xl lg:leading-[3.5rem]">I'm <b className="font-semibold">Yılmaz Ev</b>, a front-end developer passionate about creating beautiful user interfaces and impressive experiences.</p>
-                <div className="mb-4 mt-8 flex flex-col items-center sm:flex-row md:mt-12">
-                    <div className="flex flex-col items-center font-normal text-stone-700 sm:flex-row">
-                        <p className="text-center text-xl md:text-2xl lg:text-3xl">Get in touch</p>
-                        <span className="ml-2 mr-3 hidden text-[2rem] sm:block">👉🏻</span>
-                        <span className="my-3 ml-2 mr-3 block text-[2rem] sm:hidden">👇🏻</span>
-                    </div>
-                    <Link href="mailto:yilmaz.ev@outlook.com" className="w-fit text-xl font-normal text-stone-700 shadow-[0_2px_0_#292524] md:text-2xl md:shadow-[0_3px_0_#292524] lg:text-3xl" aria-label="yilmaz.ev@outlook.com ile iletişime geç">yilmaz.ev@outlook.com</Link>
-                </div>
-                <div className="flex flex-wrap items-center justify-center gap-3">
-                    <Link href="https://github.com/yilmazev" target="_blank" className="mt-5 flex items-center gap-1.5 rounded-full border border-gray-100 bg-white px-5 py-3.5 transition duration-200 hover:bg-gray-100" aria-label="Yılmaz Github hesabı">
-                        <IconGithub width="22px" height="22px" className="fill-zinc-900" />
-                        <p className="text-stone-700">Github</p>
-                    </Link>
-                    <div className="relative">
-                        <div onClick={() => setIsExploding(true)} className="mt-5 flex cursor-pointer items-center gap-1.5 rounded-full border border-gray-100 bg-white px-5 py-3.5 transition duration-200 hover:bg-gray-100">
-                            <IconFile width="22px" height="22px" className="fill-none stroke-zinc-900 stroke-[1.5px]" />
-                            <p className="text-stone-700">CV</p>
+        <section id="about" className="flex w-full justify-center px-3 py-8 lg:px-6 lg:py-16">
+            <div className="flex w-full max-w-[1224px] justify-center">
+                <div className="flex w-full flex-col">
+                    <div className="mb-4 sm:mb-6">
+                        <div className="flex flex-col">
+                            <span className="mb-5 text-[1.6rem] sm:text-[2rem] md:text-4xl">🤩</span>
+                            <h1 className="text-2xl text-[#1B1B1B] md:text-3xl lg:text-4xl">
+                                Hello, I'm <b className="font-medium">Devran</b>
+                            </h1>
                         </div>
-                        {isExploding &&
-                            <Player
-                                onEvent={e => {
-                                    if (e === "complete") {
-                                        router.push("/yilmaz.ev.resume.pdf")
-                                        setIsExploding(false)
-                                    };
-                                }}
-                                autoplay
-                                src={LottieConfetti}
-                                className="absolute left-[-120px] top-[-175px] z-10 h-96 w-96 bg-black"
-                            />
-                        }
+                    </div>
+                    <p className="mb-7 text-[#1B1B1B]">
+                        I am 20 years old and reside in Istanbul. I have accumulated extensive experience in graphic design and advertising, particularly focusing on UI & UX, over a considerable period. Throughout my career, I have provided my services to numerous companies and individuals in this field.
+                    </p>
+                    <div className="flex flex-wrap items-center gap-4">
+                        <Link href="https://twitter.com" target="_blank" className="flex items-center gap-2 rounded-lg border border-[#B4B4B4] px-4 py-2.5 transition duration-200 hover:bg-[#B4B4B4]/10" aria-label="Devran Düzgün Twitter">
+                            <IconTwitter width="22px" height="22px" className="fill-none stroke-[#1B1B1B] stroke-[1.5px]" />
+                            <p className="text-[#1B1B1B]">Twitter</p>
+                        </Link>
+                        <Link href="https://twitter.com" target="_blank" className="flex items-center gap-2 rounded-lg border border-[#B4B4B4] px-4 py-2.5 transition duration-200 hover:bg-[#B4B4B4]/10" aria-label="Devran Düzgün Twitter">
+                            <IconInstagram width="22px" height="22px" className="fill-none stroke-[#1B1B1B] stroke-[1.5px]" />
+                            <p className="text-[#1B1B1B]">Instagram</p>
+                        </Link>
+                        <Link href="https://twitter.com" target="_blank" className="flex items-center gap-2 rounded-lg border border-[#B4B4B4] px-4 py-2.5 transition duration-200 hover:bg-[#B4B4B4]/10" aria-label="Devran Düzgün Twitter">
+                            <IconBehance width="22px" height="22px" className="fill-[#1B1B1B]" />
+                            <p className="text-[#1B1B1B]">Behance</p>
+                        </Link>
+                        <Link href="https://twitter.com" target="_blank" className="flex items-center gap-2 rounded-lg border border-[#B4B4B4] px-4 py-2.5 transition duration-200 hover:bg-[#B4B4B4]/10" aria-label="Devran Düzgün Twitter">
+                            <IconDribbble width="22px" height="22px" className="fill-none stroke-[#1B1B1B] stroke-[1.5px]" />
+                            <p className="text-[#1B1B1B]">Dribbble</p>
+                        </Link>
                     </div>
                 </div>
             </div>

@@ -1,14 +1,4 @@
-import { StaticImageData } from "next/image"
-
-export interface TabProps {
-    label: string;
-    skills: SkillProps[];
-}
-
-interface SkillProps {
-    name: string;
-    description?: string;
-    color: string,
-    progress: number,
-    image: StaticImageData;
+export interface SkillsProps {
+    appName: string;
+    rate?: string;
 }

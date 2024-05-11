@@ -51,8 +51,8 @@ const sfPro = localFont({
 })
 
 export const metadata: Metadata = {
-    title: "Yılmaz Ev | Frontend Developer",
-    description: "Ben Yılmaz Ev, güzel kullanıcı arayüzleri ve etkileyici deneyimler yaratmaya tutkulu bir front-end geliştiriciyim.",
+    title: "Devran Düzgün | Designer",
+    description: "I am 20 years old and reside in Istanbul. I have accumulated extensive experience in graphic design and advertising, particularly focusing on UI & UX, over a considerable period. Throughout my career, I have provided my services to numerous companies and individuals in this field.",
 }
 
 export default function RootLayout({
@@ -61,7 +61,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
     return (
-        <html lang="tr">
+        <html lang="en">
             <body className={sfPro.className}>
                 {children}
                 <Analytics />
