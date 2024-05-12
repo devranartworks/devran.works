@@ -51,7 +51,7 @@ const sfPro = localFont({
 })
 
 export const metadata: Metadata = {
-    title: "Devran Düzgün | Designer",
+    title: "Devran - UI & UX Designer",
     description: "I am 20 years old and reside in Istanbul. I have accumulated extensive experience in graphic design and advertising, particularly focusing on UI & UX, over a considerable period. Throughout my career, I have provided my services to numerous companies and individuals in this field.",
 }
 
