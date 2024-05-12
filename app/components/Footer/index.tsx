@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
                     <p className="text-[#FCF7EE]">
                         <span className="text-[#9B958B]">{currentYear} ©</span>
                         &nbsp;
-                        Design by <b className="font-semibold">Devran Düzgün</b> and Development by <Link href="https://yilmazev.dev" target="_blank" className="font-semibold">Yılmaz Ev</Link>
+                        Design by <b className="font-semibold">Devran</b> and Development by <Link href="https://yilmazev.dev" target="_blank" className="font-semibold">Yılmaz Ev</Link>
                     </p>
                 </div>
             </div>
