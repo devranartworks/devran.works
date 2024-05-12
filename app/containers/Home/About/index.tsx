@@ -15,7 +15,7 @@ const About: React.FC = () => {
                         <div className="flex flex-col">
                             <span className="mb-5 text-[1.6rem] sm:text-[2rem] md:text-4xl">🤩</span>
                             <h1 className="text-2xl text-[#1B1B1B] md:text-3xl lg:text-4xl">
-                                Merhaba, ben<b className="font-medium">Devran</b>
+                                Merhaba, ben <b className="font-medium">Devran</b>
                             </h1>
                         </div>
                     </div>
