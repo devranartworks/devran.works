@@ -1,19 +1,20 @@
 "use client"
 
-import { useRouter } from "next/navigation"
 import Link from "next/link"
 import { IconBehance, IconDribbble, IconInstagram, IconTwitter } from "../../../components/Icons"
+import EmojiStarStruck from "../../../assets/images/emoji-star-struck.svg"
+import Image from "next/image"
 
 const About: React.FC = () => {
-    const router = useRouter()
-
     return (
-        <section id="about" className="flex w-full justify-center px-3 py-8 lg:px-6 lg:py-16">
+        <section id="about" className="flex w-full justify-center px-3 pt-8 lg:px-6 lg:pt-16">
             <div className="flex w-full max-w-[1224px] justify-center">
                 <div className="flex w-full flex-col">
                     <div className="mb-4 sm:mb-6">
                         <div className="flex flex-col">
-                            <span className="mb-5 text-[1.6rem] sm:text-[2rem] md:text-4xl">🤩</span>
+                            <span className="mb-5 text-[1.6rem] sm:text-[2rem] md:text-4xl">
+                                <Image src={EmojiStarStruck} alt="Devran Düzgün Portfolyo" />
+                            </span>
                             <h1 className="text-2xl text-[#1B1B1B] md:text-3xl lg:text-4xl">
                                 Merhaba, ben <b className="font-medium">Devran</b>
                             </h1>
