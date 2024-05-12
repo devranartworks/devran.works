@@ -15,27 +15,27 @@ const About: React.FC = () => {
                         <div className="flex flex-col">
                             <span className="mb-5 text-[1.6rem] sm:text-[2rem] md:text-4xl">🤩</span>
                             <h1 className="text-2xl text-[#1B1B1B] md:text-3xl lg:text-4xl">
-                                Hello, I'm <b className="font-medium">Devran</b>
+                                Merhaba, ben<b className="font-medium">Devran</b>
                             </h1>
                         </div>
                     </div>
                     <p className="mb-7 text-[#1B1B1B]">
-                        I am 20 years old and reside in Istanbul. I have accumulated extensive experience in graphic design and advertising, particularly focusing on UI & UX, over a considerable period. Throughout my career, I have provided my services to numerous companies and individuals in this field.
+                        I am 20 years old and reside in Istanbul. I have accumulated extensive experience in graphic design and advertising, particularly focusing on UI & UX, over a considerable period. Throughout my career, I have provided my services to numerous companies and individuals in this field. I am 20 years old and reside in Istanbul. I have accumulated extensive experience in graphic design and advertising, particularly focusing on UI & UX, over a considerable period. Throughout my career, I have provided my services to numerous companies and individuals in this field.
                     </p>
                     <div className="flex flex-wrap items-center gap-4">
-                        <Link href="https://twitter.com" target="_blank" className="flex items-center gap-2 rounded-lg border border-[#B4B4B4] px-4 py-2.5 transition duration-200 hover:bg-[#B4B4B4]/10" aria-label="Devran Düzgün Twitter">
+                        <Link href="https://twitter.com/uidevo" target="_blank" className="flex items-center gap-2 rounded-lg border border-[#B4B4B4] px-4 py-2.5 transition duration-200 hover:bg-[#B4B4B4]/10" aria-label="Devran Düzgün Twitter">
                             <IconTwitter width="22px" height="22px" className="fill-none stroke-[#1B1B1B] stroke-[1.5px]" />
                             <p className="text-[#1B1B1B]">Twitter</p>
                         </Link>
-                        <Link href="https://twitter.com" target="_blank" className="flex items-center gap-2 rounded-lg border border-[#B4B4B4] px-4 py-2.5 transition duration-200 hover:bg-[#B4B4B4]/10" aria-label="Devran Düzgün Twitter">
+                        <Link href="https://www.instagram.com/devranartworks" target="_blank" className="flex items-center gap-2 rounded-lg border border-[#B4B4B4] px-4 py-2.5 transition duration-200 hover:bg-[#B4B4B4]/10" aria-label="Devran Düzgün Twitter">
                             <IconInstagram width="22px" height="22px" className="fill-none stroke-[#1B1B1B] stroke-[1.5px]" />
                             <p className="text-[#1B1B1B]">Instagram</p>
                         </Link>
-                        <Link href="https://twitter.com" target="_blank" className="flex items-center gap-2 rounded-lg border border-[#B4B4B4] px-4 py-2.5 transition duration-200 hover:bg-[#B4B4B4]/10" aria-label="Devran Düzgün Twitter">
+                        <Link href="https://www.behance.net/devrandesign" target="_blank" className="flex items-center gap-2 rounded-lg border border-[#B4B4B4] px-4 py-2.5 transition duration-200 hover:bg-[#B4B4B4]/10" aria-label="Devran Düzgün Twitter">
                             <IconBehance width="22px" height="22px" className="fill-[#1B1B1B]" />
                             <p className="text-[#1B1B1B]">Behance</p>
                         </Link>
-                        <Link href="https://twitter.com" target="_blank" className="flex items-center gap-2 rounded-lg border border-[#B4B4B4] px-4 py-2.5 transition duration-200 hover:bg-[#B4B4B4]/10" aria-label="Devran Düzgün Twitter">
+                        <Link href="https://dribbble.com/devranui" target="_blank" className="flex items-center gap-2 rounded-lg border border-[#B4B4B4] px-4 py-2.5 transition duration-200 hover:bg-[#B4B4B4]/10" aria-label="Devran Düzgün Twitter">
                             <IconDribbble width="22px" height="22px" className="fill-none stroke-[#1B1B1B] stroke-[1.5px]" />
                             <p className="text-[#1B1B1B]">Dribbble</p>
                         </Link>
