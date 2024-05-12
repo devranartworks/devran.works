@@ -20,7 +20,7 @@ const About: React.FC = () => {
                         </div>
                     </div>
                     <p className="mb-7 text-[#1B1B1B]">
-                        İstanbul'un dinamik ve ilham verici atmosferinde 20 yaşında bir tasarımcıyım. UI & UX tasarımın yanı sıra genel grafik tasarımla da uğraşmaktayım, bu alanlarda birçok kişiye/kuruluşa hizmet verdim hâlâ da vermekteyim. Dilerseniz siz de benimle iletişime geçebilirsiniz.
+                        20 yaşındayım ve uzun zamandır tasarımla uğraşmaktayım. UI & UX tasarımın yanı sıra genel grafik tasarımla da ilgileniyorum, bu alanlarda birçok kişiye/kuruluşa hizmet verdim hâlâ da vermekteyim. Dilerseniz siz de benimle iletişime geçebilirsiniz.
                     </p>
                     <div className="flex flex-wrap items-center gap-4">
                         <Link href="https://twitter.com/uidevo" target="_blank" className="flex items-center gap-2 rounded-lg border border-[#B4B4B4] px-4 py-2.5 transition duration-200 hover:bg-[#B4B4B4]/10" aria-label="Devran Düzgün Twitter">
