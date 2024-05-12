@@ -11,7 +11,7 @@ const Skills: React.FC = () => {
                 <div className="flex w-full flex-col">
                     <div className="flex w-full flex-col justify-start gap-10 md:flex-row md:justify-between">
                         <div className="flex flex-col">
-                            <h2 className="text-2xl font-medium text-[#1B1B1B]/40">Capability</h2>
+                            <h2 className="text-2xl font-medium text-[#1B1B1B]/40">Yetenekler</h2>
                             <div className="mt-7 flex flex-col gap-2">
                                 {skillsData.skills.map((skill, index) => (
                                     <div key={index}>
@@ -22,7 +22,7 @@ const Skills: React.FC = () => {
                             </div>
                         </div>
                         <div className="flex flex-col">
-                            <h2 className="text-2xl font-medium text-[#1B1B1B]/40">Education</h2>
+                            <h2 className="text-2xl font-medium text-[#1B1B1B]/40">Öğrenim Durumu</h2>
                             <div className="mt-7 flex flex-col gap-2">
                                 {educationData.education.map((education, index) => (
                                     <div key={index}>
@@ -33,7 +33,7 @@ const Skills: React.FC = () => {
                             </div>
                         </div>
                         <div className="flex flex-col">
-                            <h2 className="text-2xl font-medium text-[#1B1B1B]/40">Experience</h2>
+                            <h2 className="text-2xl font-medium text-[#1B1B1B]/40">Deneyim</h2>
                             <div className="mt-7 flex flex-col gap-2">
                                 {experienceData.experience.map((experience, index) => (
                                     <div key={index}>
