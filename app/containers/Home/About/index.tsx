@@ -21,7 +21,7 @@ const About: React.FC = () => {
                         </div>
                     </div>
                     <p className="mb-7 text-[#1B1B1B]">
-                        20 yaşındayım ve uzun zamandır tasarımla uğraşmaktayım. UI & UX tasarımın yanı sıra genel grafik tasarımla da ilgileniyorum, bu alanlarda birçok kişiye/kuruluşa hizmet verdim hâlâ da vermekteyim. Dilerseniz siz de benimle iletişime geçebilirsiniz.
+                       Uzun süredir grafik tasarımın çeşitli alanlarında ve arayüz tasarımcılığı alanında hizmet veriyorum, bu alanlarda birçok kişiyle ve şirketle çalıştım. Dilerseniz siz de benimle iletişime geçebilirsiniz.
                         
                         <b className="font-bold">devranartworks@gmail.com</b>
                     </p>
