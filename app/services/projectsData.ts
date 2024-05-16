@@ -1,6 +1,7 @@
 import { ProjectsProps } from "../types/projectTypes"
 import helvaci from "../assets/images/helvaci.png"
 import finance from "../assets/images/finance.png"
+import void from "../assets/images/voidap.png"
 
 const projectsData: { projects: ProjectsProps[] } = {
     projects: [
@@ -13,6 +14,11 @@ const projectsData: { projects: ProjectsProps[] } = {
             link: "https://www.behance.net/gallery/198411561/Finance-App-UI-UX?",
             image: finance,
             title: "Finance App - UI & UX",
+        },
+        {
+            link: "https://www.behance.net/gallery/198710159/Void-App-UI-UX",
+            image: void,
+            title: "Void App - UI & UX",
         },
     ],
 }
