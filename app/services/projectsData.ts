@@ -13,6 +13,11 @@ const projectsData: { projects: ProjectsProps[] } = {
             title: "Finance App - UI & UX",
         },
         {
+            link: "https://www.behance.net/gallery/200047553/Fixpoint-UI-UX?",
+            image: fixpoint,
+            title: "Fixpoint - UI & UX",
+        },
+        {
             link: "https://www.behance.net/gallery/198412143/Helvac-Hamdi-UI-UX-design?",
             image: helvaci,
             title: "Helvacı - UI & UX",
@@ -26,11 +31,6 @@ const projectsData: { projects: ProjectsProps[] } = {
             link: "https://www.behance.net/gallery/198710553/Anonim-Blockchain-Project-UI-UX?",
             image: blockchain1,
             title: "Blockchain Project - UI & UX",
-        },
-        {
-            link: "https://www.behance.net/gallery/200047553/Fixpoint-UI-UX?",
-            image: fixpoint,
-            title: "Fixpoint - UI & UX",
         },
     ],
 }
