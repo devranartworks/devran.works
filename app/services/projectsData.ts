@@ -3,6 +3,7 @@ import helvaci from "../assets/images/helvaci.png"
 import finance from "../assets/images/finance.png"
 import voidap from "../assets/images/voidap.jpg"
 import blockchain1 from "../assets/images/425318079_323111736816946_6054574089857207142_n.jpg"
+import fixpoint from "../assets/images/fixpointpp.jpg"
 
 const projectsData: { projects: ProjectsProps[] } = {
     projects: [
@@ -25,6 +26,11 @@ const projectsData: { projects: ProjectsProps[] } = {
             link: "https://www.behance.net/gallery/198710553/Anonim-Blockchain-Project-UI-UX?",
             image: blockchain1,
             title: "Blockchain Project - UI & UX",
+        },
+        {
+            link: "https://www.behance.net/gallery/200047553/Fixpoint-UI-UX?",
+            image: fixpoint,
+            title: "Fixpoint - UI & UX",
         },
     ],
 }
